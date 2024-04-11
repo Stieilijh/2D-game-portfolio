@@ -4,7 +4,7 @@ export const DialogueData = {
   pc: `This is my PC. I work mostly in JavaScript, Java and Python.
     Anyway regardless of the language, I just like programming. 
     Here is my <a href="https://github.com/Stieilijh" target="_blank">Github</a>!`,
-  "BSc-Degree": `Here is where I will hang my B.Sc Degree.`,
+  "cs-Degree": `Here is where I will hang my B.Sc Degree.`,
   "sofa-table": `That's my sofa. I like to relax here and watch YouTube.`,
   tv: `That's my TV.`,
   bed: `This where I sleep. Great ideas comes when I'm lying on my bed. When an idea strikes, I often have to write it down or else I won't be able to sleep because my mental energy is consumed by it.`,
