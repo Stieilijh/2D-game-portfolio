@@ -1,4 +1,4 @@
-import { scaleFactor } from "./constants"
+import { DialogueData, scaleFactor } from "./constants"
 import { k } from "./kaboomCtx"
 import { displayDialogue, setCamScale } from "./utils"
 
@@ -58,7 +58,10 @@ k.scene("main", async () => {
         if (boundary.name) {
           player.onCollide(boundary.name, () => {
             player.isInDialouge = true
-            displayDialogue("TODO", () => (player.isInDialouge = false))
+            displayDialogue(
+              DialogueData[boundary.name],
+              () => (player.isInDialouge = false)
+            )
           })
         }
       }
